@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Firesans';
+    src: url('fonts/firasans-medium-webfont.woff2') format('woff2'),
+         url('fonts/firasans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Firesans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #faf7f2;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #3e2e1f;
+    color: white;
+}
+
+nav h2{
+    font-size: 28px;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+
+nav li:hover{
+    color: #d7b590;
+}
+
+/* Hero sekce */
+.hero{
+    height: 70vh;
+    background: url('pictures/pexels-chevanon-302899.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1{
+    font-size: 60px;
+    backdrop-filter: blur(4px);
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.4);
+}
+
+/* Sekce obecně */
+section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+/* ABOUT */
+.about {
+    background: #fff;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* MENU */
+.menu {
+    background: #f0e9e1;
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu-items .item {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.item h3 {
+    margin-bottom: 10px;
+}
+
+/* SPECIALS */
+.specials {
+    background: #3e2e1f;
+    color: white;
+}
+
+.specials h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* GALLERY */
+.gallery {
+    background: #fff;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.gallery .photos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gallery .ph {
+    width: 250px;
+    height: 180px;
+    background: #ccc;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* CONTACT */
+.contact {
+    background: #f0e9e1;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
